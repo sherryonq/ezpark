@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EzPark</string>
+    <string name="email">Email: </string>
+    <string name="password">Password: </string>
+    <string name="error">Error</string>
+    <string name="error_message1">Wrong Email or Password! Please Try Again.</string>
+    <string name="error_message2">Please enter your email and password.</string>
+    <string name="error_message3">Password does not match, please try again.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="username">username</string>
+    <string name="email_address">example@gmail.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
