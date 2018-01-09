@@ -47,7 +47,8 @@
         android:textColor="#FFFFFF"
         android:textSize="15dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="36dp" />
 
     <EditText
         android:id="@+id/editTextEmail"
