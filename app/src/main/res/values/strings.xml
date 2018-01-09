@@ -15,9 +15,31 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="username">username</string>
+    <string name="edit_account">Edit Account</string>
     <string name="email_address">example@gmail.com</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="desc">Delete</string>
+    <string-array name="LocationArray">
+        <item>LocationA</item>
+        <item>LocationB</item>
+        <item>LocationC</item>
+    </string-array>
+
+    <string name="features">Features</string>
+    <string name="features_desc">This application is to use to blah blah blah</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_us_desc">
+        This application is created by:
+        \nLo Wei Hong
+        \nNg En Hao
+        \nOng Jia Ying
+    </string>
+
+    <string-array name="app_theme">
+        <item>Default</item>
+        <item>Light Theme</item>
+    </string-array>
 </resources>

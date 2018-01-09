@@ -51,7 +51,7 @@ public class LoginActivity extends Activity {
     }
 
     public void checkAccount(View view) {
-        String email = "viktorherald05@gmail.com";
+        String email = "123456";
         String password = "123456";
 
         //validation

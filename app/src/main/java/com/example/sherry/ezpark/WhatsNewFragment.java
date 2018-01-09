@@ -12,22 +12,19 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class EditAccountFragment extends Fragment {
-
+public class WhatsNewFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle("Edit Account");
+        getActivity().setTitle("What's New");
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_edit_account, container, false);
+        return inflater.inflate(R.layout.fragment_whats_new, container, false);
     }
-
-
 
 }

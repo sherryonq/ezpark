@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/MainLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.sherry.ezpark.SettingsFragment"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textViewNoti"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="48dp"
+    android:layout_marginTop="24dp"
+    android:text="Notifications"
+    android:textSize="18sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginLeft="48dp" />
+
+<Switch
+    android:id="@+id/switchNotification"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="48dp"
+    android:minWidth="65dp"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textViewNoti"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginRight="48dp" />
+
+<View
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="8dp"
+    android:background="#000000"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewNoti" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:text="Theme"
+    android:textSize="18sp"
+    app:layout_constraintStart_toStartOf="@+id/textViewNoti"
+    app:layout_constraintTop_toBottomOf="@+id/view" />
+
+<Spinner
+    android:id="@+id/spinnerTheme"
+    android:layout_width="96dp"
+    android:layout_height="23dp"
+    android:layout_marginTop="24dp"
+    android:entries="@array/app_theme"
+    app:layout_constraintEnd_toEndOf="@+id/switchNotification"
+    app:layout_constraintTop_toBottomOf="@+id/view" />
+
+</android.support.constraint.ConstraintLayout>

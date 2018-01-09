@@ -32,8 +32,8 @@ public class SplashScreen extends Activity {
             }
         }, SPLASH_TIME_OUT);
 
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        textViewTitle = (TextView) findViewById(R.id.textViewTitle);
+        progressBar = findViewById(R.id.progressBar);
+        textViewTitle = findViewById(R.id.textViewTitle);
     }
 
     @Override
